@@ -75,6 +75,20 @@ export default function RootLayout({ children }) {
           <div style={{ fontSize: "1.8rem", fontWeight: "bold", color: "#8a2846", letterSpacing: "1px" }}>
             Velvet Ash
           </div>
+        
+          <a
+            href="/menu"
+            style={{
+              color: "#8a2846",
+              textDecoration: "none",
+              fontSize: "16px",
+              fontWeight: "bold",
+              marginRight: "25px",
+              fontFamily: "Arial, sans-serif"
+            }}
+          >
+            Menu
+          </a>
 
           <div style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#8a2846" viewBox="0 0 16 16">

@@ -30,7 +30,7 @@ export default function CheckoutPage() {
     }
 
     // Success Order Alert
-    alert(`🎉 Order Placed Successfully for Velvet Ash!\n\nThank you ${fullName}, your order for "${cartItem?.name}" (${cartItem?.weight}) has been booked for ${deliveryDate}.\n\nWe will contact you on ${phone} shortly.`);
+    alert(`🎉 Order Placed Successfully for Velvet Ash!\n\nThank you ${fullName}, your order for "${cartItem?.name}" (${cartItem?.weight}) with ${cartItem?.flavor} Base has been booked for ${deliveryDate}.\n\nWe will contact you on ${phone} shortly.`);
     
     // Clear Cart after success
     localStorage.removeItem("cakeCart");
@@ -78,7 +78,7 @@ export default function CheckoutPage() {
             <img src={cartItem.image} alt={cartItem.name} style={{ width: "90px", height: "90px", borderRadius: "12px", objectFit: "cover", border: "1px solid #f7d6dc" }} />
             <div>
               <h4 style={{ margin: "0 0 6px 0", color: "#4a1525", fontSize: "1.1rem" }}>{cartItem.name}</h4>
-              <p style={{ margin: "0", fontSize: "0.9rem", color: "#6b5257" }}><strong>Flavor:</strong> {cartItem.flavor}</p>
+              <p style={{ margin: "0", fontSize: "0.9rem", color: "#6b5257" }}><strong>Base Flavor:</strong> {cartItem.flavor}</p>
               <p style={{ margin: "4px 0 0 0", fontSize: "0.9rem", color: "#6b5257" }}><strong>Weight:</strong> {cartItem.weight}</p>
               {cartItem.message && <p style={{ margin: "4px 0 0 0", fontSize: "0.9rem", color: "#8a2846" }}><strong>Text:</strong> "{cartItem.message}"</p>}
             </div>

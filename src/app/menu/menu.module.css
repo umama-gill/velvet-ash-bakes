@@ -1,0 +1,287 @@
+
+.page {
+  background: #fff0f2;
+  color: #4a1525;
+  min-height: 100vh;
+  padding: 45px 5% 70px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 0 45px;
+}
+
+.eyebrow {
+  color: #a13b59;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.hero h1,
+.formSide h2,
+.summary h2,
+.card h2 {
+  font-family: Georgia, serif;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 5vw, 58px);
+  margin: 12px 0;
+}
+
+.hero p,
+.subtitle {
+  color: #80616a;
+  line-height: 1.7;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1250px;
+  margin: 0 auto 28px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #f7d6dc;
+  border-radius: 18px;
+  padding: 26px;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px #8a284610;
+}
+
+.emoji {
+  font-size: 34px;
+}
+
+.card h2 {
+  font-size: 23px;
+  margin: 16px 0 10px;
+}
+
+.card p {
+  color: #80616a;
+  line-height: 1.7;
+  min-height: 48px;
+}
+
+.card strong {
+  display: block;
+  color: #8a2846;
+  margin-top: 20px;
+}
+
+.builder {
+  max-width: 1250px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #f7d6dc;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr .8fr;
+  overflow: hidden;
+}
+
+.formSide {
+  padding: 35px;
+}
+
+.formSide h2,
+.summary h2 {
+  font-size: 30px;
+  margin: 12px 0;
+}
+
+.subtitle {
+  margin-bottom: 28px;
+}
+
+.formSide label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 22px 0 10px;
+}
+
+.formSide select,
+.formSide input:not([type="file"]),
+.formSide textarea {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ead9dc;
+  border-radius: 9px;
+  background: white;
+  color: #4a1525;
+  font: inherit;
+}
+
+.formSide input[type="file"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  font-size: 13px;
+}
+
+.formSide select:focus,
+.formSide input:focus,
+.formSide textarea:focus {
+  outline: 2px solid #e8b6c3;
+  outline-offset: 1px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.options button {
+  padding: 12px 20px;
+  border: 1px solid #f1cbd4;
+  border-radius: 8px;
+  background: white;
+  color: #4a1525;
+  cursor: pointer;
+}
+
+.options button.active {
+  background: #8a2846;
+  color: white;
+  border-color: #8a2846;
+}
+
+.summary {
+  background: #fff8f9;
+  border-left: 1px solid #f7d6dc;
+  padding: 30px;
+}
+
+.summaryProduct {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0dfe2;
+}
+
+.summaryEmoji {
+  display: grid;
+  place-items: center;
+  background: #fbe5e9;
+  border-radius: 12px;
+  min-width: 55px;
+  height: 55px;
+  font-size: 28px;
+}
+
+.summaryProduct strong {
+  font-size: 14px;
+}
+
+.summaryProduct p {
+  color: #80616a;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+.priceRow span:first-child {
+  color: #80616a;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background: #f8e6ea;
+  padding: 17px;
+  border-radius: 10px;
+  margin: 22px 0;
+}
+
+.total strong {
+  color: #8a2846;
+}
+
+.whatsapp,
+.email {
+  width: 100%;
+  border-radius: 9px;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.whatsapp {
+  border: none;
+  color: white;
+  background: #8a2846;
+}
+
+.whatsapp:hover {
+  background: #681c35;
+}
+
+.email {
+  background: white;
+  border: 1px solid #8a2846;
+  color: #8a2846;
+}
+
+.email:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+.hint,
+.status {
+  color: #80616a;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+.status {
+  color: #8a2846;
+  font-weight: bold;
+}
+
+@media (max-width: 850px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .builder {
+    grid-template-columns: 1fr;
+  }
+
+  .summary {
+    border-left: none;
+    border-top: 1px solid #f7d6dc;
+  }
+
+  .formSide,
+  .summary {
+    padding: 23px;
+  }
+}

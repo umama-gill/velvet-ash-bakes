@@ -8,7 +8,7 @@ const allCakes = [
   { 
     id: 1, 
     name: "HELL0 22 PINK", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image:"https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323788/Birthday_cake_gq8khp.jpg"
@@ -16,7 +16,7 @@ const allCakes = [
   { 
     id: 2, 
     name: "HBD IN YELLOW", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image:"https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323796/YELLOW____%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B1%D0%B5%D0%BD%D1%82%D0%BE_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D1%82%D0%BE%D1%80%D1%82_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D1%82%D0%BE%D1%80%D1%82%D1%8B%D0%BD%D0%B0%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D1%82%D0%BE%D1%80%D1%82%D0%BD%D0%B0%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D1%84%D0%BE%D1%82%D0%BE_%D0%BE%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8_%D1%82%D0%BE%D1%80%D1%82_%D1%82%D0%BE%D1%80%D1%82%D0%B1%D0%B5%D0%B7%D0%BC%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B8_%D1%82%D0%BE%D1%80%D1%82%D0%BD%D0%B0%D0%B4%D0%B5%D0%BD%D1%8C%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_cake_bento_bentocake_aesthetic_yellow_%D1%82_c0upxz.jpg"
@@ -24,7 +24,7 @@ const allCakes = [
   { 
     id: 3, 
     name: "HBD IN PURPEL", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image:"https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323825/%D0%94%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5__%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B5%D0%BD%D1%82%D0%BE-%D1%82%D0%BE%D1%80%D1%82_2025_pseifx.jpg"
@@ -32,7 +32,7 @@ const allCakes = [
   { 
     id: 4, 
     name: "HBD IN WHITE WITH MINI HEARTS", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image:"https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323811/%D0%91%D0%B5%D0%BD%D1%82%D0%BE_happy_birthday_eyn5x5.jpg"
@@ -40,7 +40,7 @@ const allCakes = [
     { 
     id: 5, 
     name: "FLORAL HBD", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image:"https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323803/aesthetics_abpojh.jpg"
@@ -64,7 +64,7 @@ const allCakes = [
     { 
     id: 8, 
     name: "(YOUR PICTURE) ", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image: "https://res.cloudinary.com/dzpwgu7wc/image/upload/v1782918930/YOUR_PICTURE_BENTO_CAKE_lpymsc.jpg"
@@ -72,7 +72,7 @@ const allCakes = [
     { 
     id: 9, 
     name: "NOTEBOOK", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image: "https://res.cloudinary.com/dzpwgu7wc/image/upload/v1782918949/BENTO_CAKE1_cnnpv6.jpg"
@@ -104,7 +104,7 @@ const allCakes = [
     { 
     id: 13, 
     name: "HEART CAKE", 
-    basePrice: 2800, 
+    basePrice: 2000, 
     category: "bento", 
     // 👇 Yeh hai real Cloudinary URL ki example
     image: "https://res.cloudinary.com/dzpwgu7wc/image/upload/v1775323669/download_2_ztklmw.jpg"
@@ -197,20 +197,7 @@ export default function CategoryPage() {
                 <div style={{ padding: "25px" }}>
                   <h4 style={{ margin: "0 0 10px 0", color: "#4a1525", fontSize: "1.2rem", fontFamily: "Georgia, serif" }}>{cake.name}</h4>
                   <p style={{ fontWeight: "bold", color: "#8a2846", margin: "0 0 20px 0", fontSize: "1.15rem" }}>Rs. {cake.basePrice}</p>
-                  <Link href={`/product/${cake.id}`}>
-                    <button style={{ 
-                      backgroundColor: "#8a2846", 
-                      color: "#ffffff", 
-                      border: "none", 
-                      padding: "12px 20px", 
-                      borderRadius: "10px", 
-                      cursor: "pointer", 
-                      width: "100%", 
-                      fontWeight: "bold"
-                    }}>
-                      Customize & Order
-                    </button>
-                  </Link>
+                  
                 </div>
               </div>
             ))}
