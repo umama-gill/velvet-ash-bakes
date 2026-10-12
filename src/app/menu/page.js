@@ -84,7 +84,7 @@ Estimated total: PKR ${total}`;
 
   // 🟢 WhatsApp Redirection (Working)
   const openWhatsApp = () => {
-    const whatsappNumber = "923287666605";
+    const whatsappNumber = "923156613968";
     const text = encodeURIComponent(
       orderDetails() +
         (reference ? "\n\nI have an inspiration photo to share in this chat." : "")
